@@ -1,0 +1,43 @@
+
+//este era solo un navbar de prueba 
+
+
+<nav className="navbar navbar-dark bg-dark navbar-expand-lg navbar-expand-md ">
+      <div className="container-fluid">
+        <a className="navbar-brand ms-4"  href="#"><strong>DEVELOPERS</strong></a>
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-bs-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div className="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul className="navbar-nav">
+          <li className="nav-item">
+              <a className="nav-link active" aria-bs-current="page" data-bs-toggle="dropdown" aria-expanded="false" href='#'>Home</a>
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a className="dropdown-item" href="#car1">Programación</a></li>
+                <li><a class="dropdown-item" href="#car2">Paradigmas</a></li>
+                <li><a class="dropdown-item" href="#car3">Lenguajes</a></li>
+                <li><a class="dropdown-item" href="#car4">Actividad</a></li>
+              </ul>
+          </li>
+          
+          <li className="nav-item">
+            <a className="nav-link active" href="#">About</a>
+          </li>
+          <li className="nav-item">
+            <a className="nav-link active" href="#">Services</a>
+          </li>
+          <li className="nav-item me-5">
+              <a className="nav-link active" aria-bs-current="date" data-bs-toggle="dropdown" aria-expanded="false" href='#'>Contact</a>
+              <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a className="dropdown-item" href="https://www.linkedin.com/in/alba-rodr%C3%ADguez-594910198/">LinkedIn</a></li>
+                <li><a class="dropdown-item" href="https://github.com/AllbaLu">GitHub</a></li>
+                <li><a class="dropdown-item" href="https://4geeks.com/">Academy</a></li>
+                
+              </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  );
+};
